@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbReturnFailing.Web", "NsbReturnFailing.Web\NsbReturnFailing.Web.csproj", "{95047FB3-66AD-4B61-B26C-CB78793835F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbReturnFailing.Contracts", "NsbReturnFailing.Contracts\NsbReturnFailing.Contracts.csproj", "{69CFA777-B7F3-4C2E-9D64-8D2608DA9B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbReturnFailing.Endpoint", "NsbReturnFailing.Endpoint\NsbReturnFailing.Endpoint.csproj", "{D780058A-FEA5-42C6-A394-6590B49AE1A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95047FB3-66AD-4B61-B26C-CB78793835F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95047FB3-66AD-4B61-B26C-CB78793835F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95047FB3-66AD-4B61-B26C-CB78793835F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95047FB3-66AD-4B61-B26C-CB78793835F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CFA777-B7F3-4C2E-9D64-8D2608DA9B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CFA777-B7F3-4C2E-9D64-8D2608DA9B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CFA777-B7F3-4C2E-9D64-8D2608DA9B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CFA777-B7F3-4C2E-9D64-8D2608DA9B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D780058A-FEA5-42C6-A394-6590B49AE1A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D780058A-FEA5-42C6-A394-6590B49AE1A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D780058A-FEA5-42C6-A394-6590B49AE1A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D780058A-FEA5-42C6-A394-6590B49AE1A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

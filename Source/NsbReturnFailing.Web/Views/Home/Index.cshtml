@@ -1,0 +1,40 @@
+﻿@model IDictionary<int, NsbReturnFailing.Web.Controllers.CommandResultModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>NServiceBus callback failing test</title>
+    </head>
+    <body>
+        @using (Ajax.BeginForm("Index", "Home", null, new AjaxOptions {HttpMethod = "POST"}))
+        {
+            <input type="hidden" id="data" name="data" value="@(Guid.NewGuid())"/>
+            <input type="submit" value="Send new Command" />
+        }
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <td><b>Id</b></td>
+                    <td><b>Command Sent</b></td>
+                    <td><b>Result received</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var result in @Model)
+                {
+                    <tr>
+                        <td>@result.Value.Id</td>
+                        <td>@result.Value.CommandSent</td>
+                        <td>@result.Value.ResultReceived</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </body>
+</html>
